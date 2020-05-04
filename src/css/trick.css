@@ -1,0 +1,17 @@
+﻿
+.desc_part {
+    margin-left: 240px;
+    display: block;
+}
+
+aside {
+    background: #f0f0f0;
+    padding: 10px;
+    width: 200px;
+    position:fixed;
+    float: left;
+}
+
+.trick_container {
+    width: 100%
+}

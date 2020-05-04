@@ -10,7 +10,7 @@ const Trick1 = ({ name, description, image }) => (
     <div class="trick-container">
         <br />
         <h1>{name}</h1>
-        <img src={image} alt={name} width="100px" height="100px" /><div class="desc_part">{description}</div>
+        <img src={image} alt={name} width="100px" height="100px" /><span>{description}</span>
         <br />
     </div>);
 export default class Trick extends React.Component {
@@ -25,12 +25,12 @@ export default class Trick extends React.Component {
                 },
                 {
                     name: "Second",
-                    description: "Somthing",
+                    description: "Lore ipsum",
                     image: JustHands
                 },
                 {
                     name: "Third",
-                    description: "Somthing",
+                    description: "Lore ipsum name per sani.",
                     image: SpecialEquipment
                 }
             ]

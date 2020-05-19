@@ -1,0 +1,11 @@
+﻿body {
+    font-family: Cambria;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    background: url("./photos/back_lower.png") black;
+    background-size: 100% auto;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}

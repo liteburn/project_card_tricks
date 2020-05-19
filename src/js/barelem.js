@@ -1,5 +1,4 @@
 ﻿import React from 'react';
-import '../css/barelem.css'
 
 export default class BarElement extends React.Component {
     render() {

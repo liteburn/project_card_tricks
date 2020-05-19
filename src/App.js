@@ -6,6 +6,10 @@ import Bar from './js/bar.js';
 import SpecialEquipment from './js/special_equipment.js';
 import SomEquipment from './js/some_equipment.js';
 import Illusions from './js/illusions.js';
+import Sign_in from './js/sign_in.js';
+import Register from './js/register.js';
+import Add_trick from './js/add_trick.js';
+
 import {
     BrowserRouter as Router,
     Switch,
@@ -34,6 +38,18 @@ class App extends Component {
                         </Route>
                         <Route exact path='/specialEquipment' >{
                             <SpecialEquipment />
+                        }
+                        </Route>
+                        <Route exact path='/sign_in' >{
+                            <Sign_in />
+                        }
+                        </Route>
+                        <Route exact path='/sign_up' >{
+                            <Register />
+                        }
+                        </Route>
+                        <Route exact path='/add_trick' >{
+                            <Add_trick />
                         }
                         </Route>
                     </Switch>

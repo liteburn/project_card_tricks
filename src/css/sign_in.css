@@ -1,0 +1,39 @@
+﻿.trick {
+    text-align: center;
+}
+
+ul {
+    background: linear-gradient(261deg, rgba(0,0,0,1) 0%, rgba(226,226,226,1) 49%, rgba(0,0,0,1) 100%);
+}
+
+
+
+.container .register {
+    background: linear-gradient(261deg, rgba(25,25,25,1) 0%, rgba(185,185,185,1) 49%, rgba(25,25,25,1) 100%);
+    color: black;
+    padding: 20px;
+    margin: 0;
+    border: 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+    .container .register:hover {
+        background: linear-gradient(261deg, rgba(85,85,85,1) 0%, rgba(190,199,201,1) 49%, rgba(85,85,85,1) 100%);
+    }
+
+.register > p {
+    color: whitesmoke;
+}
+
+.register > a {
+    color: #94dbd4;
+}
+
+.register a:visited {
+    color: #4ebedb;
+}
+
+.register {
+    text-align: center;
+}

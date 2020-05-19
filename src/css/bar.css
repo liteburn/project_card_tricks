@@ -35,3 +35,8 @@ li a.active {
     background: #75787d;
     color: #f2f2f2;
 }
+
+.bar-container {
+    width: 100%
+}
+

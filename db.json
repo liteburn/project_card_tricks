@@ -1,0 +1,54 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "logins": [
+    {
+      "value": "ars",
+      "password": "arrr",
+      "repeat_password": "arrr",
+      "id": 1
+    },
+    {
+      "value": "admin",
+      "password": "123",
+      "repeat_password": "123",
+      "id": 2
+    },
+    {
+      "value": "admin",
+      "password": "admin",
+      "repeat_password": "admin",
+      "id": 3
+    },
+    {
+      "value": "me",
+      "password": "123",
+      "repeat_password": "123",
+      "id": 4
+    },
+    {
+      "value": "mine",
+      "password": "123",
+      "repeat_password": "123",
+      "id": 5
+    },
+    {
+      "value": "this",
+      "password": "123",
+      "repeat_password": "123",
+      "id": 6
+    },
+    {
+      "value": "wtf",
+      "password": "wtf",
+      "repeat_password": "wtf",
+      "id": 7
+    }
+  ],
+  "tricks": []
+}

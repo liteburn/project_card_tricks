@@ -1,13 +1,41 @@
-﻿.desc_part {
+﻿.outer {
+    color: white;
+    background: url("./photo/back.png") rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    min-height: 100vh;
+    height:auto;
+    padding-bottom:20px;
+    width: 100%;
+    background-repeat: repeat-y;
+}
+
+.text-outer {
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+    background-color: #1c1b1b;
+    margin-top: auto;
+}
+
+
+.desc_part {
     width: 40%;
     left: 110px;
 }
 
+
 .trick {
-    width: 100vw;
-    height: 160px;
-    padding-bottom: 10px;
+    width: 250px;
+    height: 400px;
+    padding: 15px;
     border: 1px solid black;
+    border-radius: 2%;
+    background-color: #faf3e1;
+    margin-top: 40px;
+    transition-delay: 500ms;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
 }
 
     .trick > a {
@@ -25,20 +53,73 @@
 }
 
 .trick > .desc {
-    color: #2b2e33;
+    color: grey;
     font-size: 120%;
 }
 
 .trick > .img {
-    float: left;
+  
     
 }
 .trick > .img > img {
     
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 200px;
+    margin: 5px;
 }   
 
 .state{
     color: black;
 }
+
+
+/* entire container, keeps perspective */
+.flip-container {
+    perspective: 1000px;
+    position:absolute;
+}
+    /* flip the pane when hovered */
+    .flip-container:hover .flipper, .flip-container.hover .flipper {
+        transform: rotateY(180deg);
+    }
+
+.flip-container, .front, .backcard {
+    width: 250px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+/* flip speed goes here */
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .backcard {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+    background-image: url("./photo/card.png");
+    background-size: 100% 100%;
+    margin-top: 40px;
+}
+
+/* back, initially hidden pane */
+.backcard {
+    transform: rotateY(180deg);
+    
+}
+

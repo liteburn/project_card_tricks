@@ -2,11 +2,47 @@
     text-align: center;
 }
 
+body {
+    font-family: Cambria;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    background: url("./photo/back.png") rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: repeat-y;
+}
+
 ul {
     background: linear-gradient(261deg, rgba(0,0,0,1) 0%, rgba(226,226,226,1) 49%, rgba(0,0,0,1) 100%);
 }
 
+.back {
+    background: rgba(0,0,0,0.7);
+    height: 100vh;
+}
 
+.sbutton {
+    background: rgba(0,0,0,0.4);
+    border: solid 2px black;
+    border-radius: 0%;
+    width: 200px;
+    height: 50px;
+    margin: 0;
+    left: 7%;
+    color: grey;
+    position: absolute;
+}
+.sbutton:hover {
+    color: white;
+}
+
+.form-outer {
+    width: 1000px;
+    margin: auto;
+    position: relative
+}
 
 .container .register {
     background: linear-gradient(261deg, rgba(25,25,25,1) 0%, rgba(185,185,185,1) 49%, rgba(25,25,25,1) 100%);

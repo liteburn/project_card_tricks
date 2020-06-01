@@ -1,0 +1,4 @@
+const LOGIN_USER = 'LOGIN_USER';
+const SIGN_UP = 'SIGN_UP';
+const ADD_TRICK = 'ADD_TRICK';
+export { LOGIN_USER, SIGN_UP, ADD_TRICK };

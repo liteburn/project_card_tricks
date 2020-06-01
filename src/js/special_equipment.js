@@ -1,9 +1,12 @@
 ﻿import React from 'react';
+import { MDBContainer } from 'mdbreact';
 
 import SomeEquipment from "../photos/trick_1.jpg";
 import JustHands from "../photos/trick_2.jpg";
 import SpecialEquip from "../photos/trick_3.jpg";
 import Trick from "./trick.js";
+import '../css/special_equipment.css'
+
 
 
 export default class SpecialEquipment extends React.Component {
@@ -32,12 +35,10 @@ export default class SpecialEquipment extends React.Component {
 
     render() {
         return (
-            <div className="special_equipment-container">
-                <h1>This is with special equipment future container.</h1>
-                {this.state.items.map((item) => (
-                    <Trick name={item.name} description={item.description} image={item.image} href=""></Trick>
-                ))}
+            <div className="embed-responsive embed-responsive-16by9">
+                <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/LjLLPe5ZhFo" allowfullscreen></iframe>
             </div>
         );
     }
+    
 }   

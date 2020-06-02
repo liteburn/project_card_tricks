@@ -7,10 +7,10 @@ export default class Bar extends React.Component {
         return (    
             <div className={"bar-container"}>
                 <ul>
-                    <div className="barelem"><li className={"bar-title"}><a>Types</a></li></div>
-                    <BarElement name={"Illusions"} />
-                    <BarElement name={"Fake moves"} />
-                    <BarElement name={"With Equipment"} />
+                    <BarElement name={"Title"} class={"bar_title"} href={""}/>
+                    <BarElement name={"Illusions"} class={"bar_small"} href={"/illusions"} />
+                    <BarElement name={"With Equipment"} class={"bar_small"} href={"/withEquipment"} />
+                    <BarElement name={"Special Equipment"} class={"bar_small"} href={"/specialEquipment"} />
                 </ul>
                 <br />
             </div>

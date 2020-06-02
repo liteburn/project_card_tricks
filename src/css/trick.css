@@ -1,7 +1,44 @@
-﻿.img_part {
-    display: inline-block;
-}
-.desc_part {
+﻿.desc_part {
     width: 40%;
     left: 110px;
+}
+
+.trick {
+    width: 100vw;
+    height: 160px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+}
+
+    .trick > a {
+        text-decoration:none;
+        width:100%;
+        float: left;
+        color: black;
+    }
+.trick > a > h1:hover {
+    color: #2b2f37;
+}
+
+.trick > div{
+    padding-left: 10px;
+}
+
+.trick > .desc {
+    color: #2b2e33;
+    font-size: 120%;
+}
+
+.trick > .img {
+    float: left;
+    
+}
+.trick > .img > img {
+    
+    width: 100px;
+    height: 100px;
+}   
+
+.state{
+    color: black;
 }
